@@ -11,3 +11,6 @@ Host vme01
 
 Host vme02
   User sks
+
+Host github.com
+  ProxyCommand ssh oper@buyu -W %h:%p
