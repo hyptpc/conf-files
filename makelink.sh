@@ -92,6 +92,7 @@ do
 done
 
 makelink $conf_dir/emacs.d $HOME/.emacs.d
+makelink $conf_dir/ssh/config $HOME/.ssh/
 # mkdir -p $HOME/.config/git
 # makelink $conf_dir/git/ignore $HOME/.config/git/ignore
 

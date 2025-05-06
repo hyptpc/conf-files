@@ -9,10 +9,12 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
+alias emacs='env TERM=xterm emacs'
 alias em='emacs -nw'
 alias cp='cp -iv'
 alias mv='mv -iv'
 alias rm='rm -iv'
+alias od='od -tx4z -Ax -v'
 
 export LESSOPEN="| src-hilite-lesspipe.sh %s"
 export LESS="-iMR"

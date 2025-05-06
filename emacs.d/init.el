@@ -1,3 +1,6 @@
+(setq auto-save-default nil)
+(setq make-backup-files nil)
+(setq auto-save-list-file-prefix nil)
 (setq line-number-mode t)
 (setq column-number-mode t)
 (global-set-key "\C-h" `delete-backward-char)

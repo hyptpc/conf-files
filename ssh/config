@@ -1,0 +1,13 @@
+ForwardX11              yes
+ForwardX11Trusted       yes
+
+Host caenhv2
+  User admin
+  HostKeyAlgorithms +ssh-dss
+  PubkeyAcceptedAlgorithms +ssh-dss
+
+Host vme01
+  User axis
+
+Host vme02
+  User sks
