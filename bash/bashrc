@@ -18,3 +18,9 @@ alias od='od -tx4z -Ax -v'
 
 export LESSOPEN="| src-hilite-lesspipe.sh %s"
 export LESS="-iMR"
+export PRINTER=C841dn
+
+# Geant4
+export G4WORKDIR=$HOME/share/geant4
+. $G4WORKDIR/install/11.2.2/bin/geant4.sh 2>/dev/null
+. $G4WORKDIR/install/11.2.2/share/Geant4/geant4make/geant4make.sh 2>/dev/null

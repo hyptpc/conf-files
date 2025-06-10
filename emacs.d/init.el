@@ -9,3 +9,6 @@
   (lambda ()
     (setq python-indent-offset 2)
     (setq indent-tabs-mode nil)))
+(defun my-c++-mode-hook ()
+  (c-set-offset 'innamespace 0))
+(add-hook 'c++-mode-hook 'my-c++-mode-hook)

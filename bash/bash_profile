@@ -1,0 +1,17 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+export http_proxy=http://buyu:8080
+export https_proxy=http://buyu:8080
+export HDDAQ_EBHOST=kazan.monitor.k18br
+
+### Geant4
+export G4WORKDIR=$HOME/share/geant4
+G4TOP=$HOME/share/geant4/install/11.2.2
+. $G4TOP/bin/geant4.sh
+. $G4TOP/share/Geant4/geant4make/geant4make.sh

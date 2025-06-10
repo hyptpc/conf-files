@@ -14,3 +14,9 @@ Host vme02
 
 Host github.com
   ProxyCommand ssh oper@buyu -W %h:%p
+
+Host www-online.kek.jp
+  ProxyCommand ssh oper@buyu -W %h:%p
+
+Host login.cc.kek.jp
+  ProxyCommand ssh oper@buyu -W %h:%p
