@@ -9,7 +9,8 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-alias emacs='env TERM=xterm emacs'
+#alias emacs='env TERM=xterm emacs'
+alias emacs='emacs -nw'
 alias em='emacs -nw'
 alias cp='cp -iv'
 alias mv='mv -iv'
