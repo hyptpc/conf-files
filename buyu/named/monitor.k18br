@@ -1,0 +1,48 @@
+$ORIGIN monitor.k18br.
+$TTL	86400
+@               IN      SOA     buyu.monitor.k18br. root.monitor.k18br. (
+                                2025040301 ; serial
+                                21600      ; refresh (6 hours)
+                                3600       ; retry (1 hour)
+                                604800     ; expire (1 week)
+                                86400      ; minimum TTL (1 day)
+                                )
+                IN      NS      buyu.monitor.k18br.
+		IN	A	192.168.20.1
+
+$GENERATE 200-250  dhcp$ IN  A  192.168.20.$
+
+buyu	  	IN	A	192.168.20.1
+kazan		IN	A	192.168.20.2
+ctrl1		IN	A	192.168.20.3
+ctrl2		IN	A	192.168.20.4
+sutera		IN	A	192.168.20.11
+raspi1		IN	A	192.168.20.12
+raspi2		IN	A	192.168.20.13
+nport1		IN	A	192.168.20.14
+mpod		IN	A	192.168.20.15
+urazato		IN	A	192.168.20.21
+hswin		IN	A	192.168.20.22
+omniace		IN	A	192.168.20.23
+cryomag		IN	A	192.168.20.24
+kikusui1	IN	A	192.168.20.41
+kikusui2	IN	A	192.168.20.42
+kikusui5	IN	A	192.168.20.45
+caenhv1		IN	A	192.168.20.51
+caenhv2		IN	A	192.168.20.52
+webcam1		IN	A	192.168.20.53
+webcam5		IN	A	192.168.20.55
+webcam6		IN	A	192.168.20.56
+webcam7		IN	A	192.168.20.57
+caenhv3		IN	A	192.168.20.58
+logger1		IN	A	192.168.20.61
+logger2		IN	A	192.168.20.62
+k18br-nuc3	IN	A	192.168.20.73
+k18br-nuc4	IN	A	192.168.20.74
+k18br-nuc5	IN	A	192.168.20.75
+k18br-nuc6	IN	A	192.168.20.76
+k18br-win5	IN	A	192.168.20.85
+k18br-tds6	IN	A	192.168.20.96
+hyptpc-nuc1	IN	A	192.168.20.101
+hyptpc-nuc4	IN	A	192.168.20.104
+shnuc1		IN	A	192.168.20.111

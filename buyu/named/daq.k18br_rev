@@ -1,0 +1,23 @@
+$ORIGIN 10.168.192.in-addr.arpa.
+$TTL    86400
+@       IN      SOA     buyu.daq.k18br. root.daq.k18br. (
+                                2025040301 ; serial
+                                21600      ; refresh (6 hours)
+                                3600       ; retry (1 hour)
+                                604800     ; expire (1 week)
+                                86400      ; minimum TTL (1 day)
+                                )
+        IN      NS      buyu.daq.k18br.
+
+$GENERATE 200-250 $ IN  PTR  dhcp$.daq.k18br.
+
+1	IN	PTR	buyu.daq.k18br.
+2	IN	PTR	kazan.daq.k18br.
+3	IN	PTR	yusura.daq.k18br.
+4	IN	PTR	geteb1.daq.k18br.
+11	IN	PTR	vme01.daq.k18br.
+12	IN	PTR	vme02.daq.k18br.
+13	IN	PTR	vme03.daq.k18br.
+14	IN	PTR	vme04.daq.k18br.
+21	IN	PTR	fe-easiroc01.daq.k18br.
+51	IN	PTR	hul-trig.daq.k18br.

@@ -1,0 +1,24 @@
+$ORIGIN daq.k18br.
+$TTL	86400
+@               IN      SOA     buyu.daq.k18br. root.daq.k18br. (
+                                2025040301 ; serial
+                                21600      ; refresh (6 hours)
+                                3600       ; retry (1 hour)
+                                604800     ; expire (1 week)
+                                86400      ; minimum TTL (1 day)
+                                )
+                IN      NS      buyu.daq.k18br.
+		IN	A	192.168.10.1
+
+$GENERATE 200-250  dhcp$ IN  A  192.168.10.$
+
+buyu	  	IN	A	192.168.10.1
+kazan		IN	A	192.168.10.2
+yusura		IN	A	192.168.10.3
+geteb1		IN	A	192.168.10.4
+vme01		IN	A	192.168.10.11
+vme02		IN	A	192.168.10.12
+vme03		IN	A	192.168.10.13
+vme04		IN	A	192.168.10.14
+fe-easiroc01	IN	A	192.168.10.21
+hul-trig	IN	A	192.168.10.51

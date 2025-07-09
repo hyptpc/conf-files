@@ -1,0 +1,47 @@
+$ORIGIN 20.168.192.in-addr.arpa.
+$TTL    86400
+@       IN      SOA     buyu.monitor.k18br. root.monitor.k18br. (
+                                2025040301 ; serial
+                                21600      ; refresh (6 hours)
+                                3600       ; retry (1 hour)
+                                604800     ; expire (1 week)
+                                86400      ; minimum TTL (1 day)
+                                )
+        IN      NS      buyu.monitor.k18br.
+
+$GENERATE 200-250 $ IN  PTR  dhcp$.monitor.k18br.
+
+1	IN	PTR	buyu.monitor.k18br.
+2	IN	PTR	kazan.monitor.k18br.
+3	IN	PTR	ctrl1.monitor.k18br.
+4	IN	PTR	ctrl2.monitor.k18br.
+11	IN	PTR	sutera.monitor.k18br.
+12	IN	PTR	raspi1.monitor.k18br.
+13	IN	PTR	raspi2.monitor.k18br.
+14	IN	PTR	nport1.monitor.k18br.
+15	IN	PTR	mpod.monitor.k18br.
+21	IN	PTR	urazato.monitor.k18br.
+22	IN	PTR	hswin.monitor.k18br.
+23	IN	PTR	omniace.monitor.k18br.
+24	IN	PTR	cryomag.monitor.k18br.
+41	IN	PTR	kikusui1.monitor.k18br.
+42	IN	PTR	kikusui2.monitor.k18br.
+45	IN	PTR	kikusui5.monitor.k18br.
+51	IN	PTR	caenhv1.monitor.k18br.
+52	IN	PTR	caenhv2.monitor.k18br.
+53	IN	PTR	webcam1.monitor.k18br.
+55	IN	PTR	webcam5.monitor.k18br.
+56	IN	PTR	webcam6.monitor.k18br.
+57	IN	PTR	webcam7.monitor.k18br.
+58	IN	PTR	caenhv3.monitor.k18br.
+61	IN	PTR	logger1.monitor.k18br.
+62	IN	PTR	logger2.monitor.k18br.
+73	IN	PTR	k18br-nuc3.monitor.k18br.
+74	IN	PTR	k18br-nuc4.monitor.k18br.
+75	IN	PTR	k18br-nuc5.monitor.k18br.
+76	IN	PTR	k18br-nuc6.monitor.k18br.
+85	IN	PTR	k18br-win5.monitor.k18br.
+96	IN	PTR	k18br-tds6.monitor.k18br.
+101	IN	PTR	hyptpc-nuc1.monitor.k18br.
+104	IN	PTR	hyptpc-nuc4.monitor.k18br.
+111	IN	PTR	shnuc1.monitor.k18br.
